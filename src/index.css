@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Typography */
+.header-text {
+  font-size: 2rem;
+}
+.header-title, .header-text {
+  color: #FFFFFF;
+}
+/* ----------------------- */
+/* Layout */
+
+/* Header */
+.header {
+  display: flex;
+  background-image: linear-gradient(to right, #672280, #A626D3 );
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 4em;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header-img {
+  width: 45px;
+  height: 50px;
+  margin-right: 2em;
+}
+
+
+
+
+/* ----------------------- */
