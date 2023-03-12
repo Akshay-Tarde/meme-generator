@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
+import Meme from "./components/Meme";
 
 function App() {
   return (
     <div>
       <Header />
-      <h1>App component works!</h1>
+      <Meme />
     </div>
   );
 }
