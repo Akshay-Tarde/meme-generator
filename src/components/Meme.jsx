@@ -3,7 +3,7 @@ import React from "react";
 function Meme() {
   return (
     <main className="main">
-      <form action="">
+      <form className="form" action="">
         <input className="input" type="text" required />
         <input className="input" type="text" required />
         <br />

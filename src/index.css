@@ -38,6 +38,31 @@ body {
 }
 
 
+/* Meme Form */
+.main {
+  width: 70%;
+  margin: 3em auto;
+}
+
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 2em;
+}
+
+.input {
+  width: 80%;
+  height: 50px;
+  grid-row: 1 / span 1;
+}
+.button {
+  width: 90%;
+  height: 50px;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 2;
+}
 
 
 /* ----------------------- */
