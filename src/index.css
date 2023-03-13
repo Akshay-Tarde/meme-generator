@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-size: 1rem;
+  font-family: 'Karla', sans-serif;
 }
 
 /* Typography */
@@ -72,6 +73,8 @@ body {
 }
 .input, .button {
   font-size: 1.5rem;
+  font-family: 'Karla', sans-serif;
+  text-indent: 10px;
 }
 
 
