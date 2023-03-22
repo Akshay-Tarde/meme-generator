@@ -78,5 +78,10 @@ body {
   text-indent: 10px;
 }
 
+.meme-image {
+  max-width: 100%;
+  object-fit: cover;
+}
+
 
 /* ----------------------- */

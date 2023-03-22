@@ -21,7 +21,7 @@ function Meme() {
           Get a new meme image 🖼
         </button>
       </form>
-      <img src={memeImage} alt="" />
+      <img src={memeImage} alt="" className="meme-image" />
     </main>
   );
 }
