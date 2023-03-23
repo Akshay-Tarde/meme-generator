@@ -6,6 +6,7 @@ function Meme() {
     topText: "",
     bottomText: "",
     randomImage: "http://i.imgflip.com/1bij.jpg",
+    allMemeImages: memesData,
   }); // Setting the image url to empty
 
   function getMemeImage(event) {
