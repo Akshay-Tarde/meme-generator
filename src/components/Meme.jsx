@@ -6,12 +6,13 @@ function Meme() {
     topText: "",
     bottomText: "",
     randomImage: "http://i.imgflip.com/1bij.jpg",
-    allMemeImages: memesData,
   }); // Setting the image url to empty
+
+  const [allMemeImages, setAllMemeImages] = React.useState(memesData);
 
   function getMemeImage(event) {
     event.preventDefault();
-    const memesArray = meme.allMemeImages.data.memes;
+    const memesArray = allMemeImages.data.memes;
     const randomNumber = Math.floor(Math.random() * memesArray.length);
     // const randomImage = memesArray[randomNumber].url;
     // console.log("Hello");
