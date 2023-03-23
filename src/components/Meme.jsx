@@ -2,7 +2,11 @@ import React from "react";
 import memesData from "../memesData";
 
 function Meme() {
-  const [memeImage, setMemeImage] = React.useState(""); // Setting the image url to empty
+  const [meme, setMemeImage] = React.useState({
+    topText: "",
+    bottomText: "",
+    randomImage: "http://i.imgflip.com/1bij.jpg",
+  }); // Setting the image url to empty
 
   function getMemeImage(event) {
     event.preventDefault();
